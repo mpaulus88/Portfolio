@@ -8,7 +8,6 @@ function add_index_link($items, $args) {
 
 	if( $args->theme_location == 'nav' )
 		$homeLink .= '<li id="home_link"><a href="' . home_url() . '">ACCUEIL</a></li>';
-
 	return $homeLink . $items;
 }
 add_filter('wp_nav_menu_items', 'add_index_link', 10, 2);
@@ -27,7 +26,6 @@ function add_taxonomy()
 		""
 		));
 }	
-
 
 if(!function_exists('portfolio_setup'))
 {
@@ -96,7 +94,6 @@ if(!function_exists('create_post_type'))
 				);
 		}
 	}
-
 if(!function_exists('portfolio_sidebars'))
 {
 	function portfolio_sidebars(){

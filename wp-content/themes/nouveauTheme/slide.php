@@ -8,4 +8,5 @@
 			
 		</div>
 	</div>
+		<script src="<?php bloginfo('stylesheet_directory');?>/script/jquery.js"></script>
 		<script src="<?php bloginfo('stylesheet_directory');?>/script/slide.js"></script>

@@ -18,11 +18,11 @@
 							<input type="submit" value="Envoyer">
 						</fieldset>
 					</form>
-					<p id="feedback"></p>
 				</section>
 				<section class="droite">
 					<h2>Mes coordonnées</h2>
 					<section id="coord">
+						<h1 class="hidden">Vcard</h1>
 						<p id="vcard"><a href="<?php bloginfo('stylesheet_directory');?>/fichiers/Martin-Paulus-Vcard.vcf">Télécharger ma Vcard</a></p>
 						<p>mpaulus88@gmail.com</p>
 					</section>
@@ -49,8 +49,11 @@
 					</form>
 					</div>
 				</section>
-
-
+		</div>
 <?php get_footer(); ?>
 <script src="<?php bloginfo('stylesheet_directory');?>/script/jquery.js"></script>
 <script src="<?php bloginfo('stylesheet_directory');?>/script/mail.js"></script>
+</div>
+</body>
+
+</html>
