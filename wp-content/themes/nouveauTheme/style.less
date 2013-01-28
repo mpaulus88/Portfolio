@@ -39,6 +39,7 @@ outline: 0;
 }
 body {
 line-height: 1;
+color:black;
 color: rgba(5,0,0,0.75);
 
 
@@ -95,6 +96,7 @@ body
 }
 #menu-header-menu a:hover
 {
+	color:#8c8c8c;
 	color: rgba(52,52,52, 0.5);
 
 }
@@ -105,7 +107,10 @@ article{
 	line-height: 1.5em;
 }
 
-
+.hidden
+{
+display:none;
+}
 #maintitle
 {
 	font-family: "Maven Pro", serif;
@@ -113,11 +118,20 @@ article{
 	font-weight: 400;
 	padding-top: 1em;
 	padding-left: 0.5em;
+	color:#665454;
 	color:rgb(255,255,255);
 	float:left;
 	text-shadow: 0 0 2px rgba(255,255,255,0.5);
 }
+#portfolio h1
+{
+	margin-top:-8px;
+}
 
+#web+section
+{
+	margin-bottom: 30px;
+}
 #logo
 {
 	float: left;
@@ -129,23 +143,44 @@ article{
 	color: white;
 	text-decoration: none;
 }
-
+div .gradient
+{
+	display:none;
+}
 
 
 #main-footer
 {
 		position: relative;
 		bottom:2px;
+		background-color:#171717;
 		background-color:rgba(0,0,0,0.9);
 		min-height:10em;
 		display: block;
 		box-shadow: -1px 2px 20px rgba(0, 0, 0, 0.6);
+		color:#CDCDCD;
 		color:rgba(255, 255, 255, 0.6);
 		padding-left: 7%;
 		padding-right: 2em;
 		margin-top: 5em;
 		clear: both;
+		margin-top:15px;
+}
+.gauche.news article
+{
 
+	border-right: #C0C0C0 2px solid;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	padding-right:20%;
+
+}
+.news article
+{
+	margin-bottom: 30px;
+}
+.galery
+{
+	margin-bottom: 30px;
 }
 
 #banner
@@ -160,7 +195,8 @@ article{
 }
 address a
 {
-	color:rgba(240,240,250,1);
+
+	color:rgb(240,240,250);
 	font-weight: 400;
 
 }
@@ -186,6 +222,7 @@ h2
 {
 	font-weight: bold;
 	font-size: 1.5em;
+	color:#665454;
 	color: rgba(15,15,15,0.8);
 	font-family: "Maven Pro", serif;
 	padding-bottom: 0.7em;
@@ -195,12 +232,13 @@ h3
 {
 	font-weight: bold;
 	font-size: 1.2em;
+	color:#665454;
 	color: rgba(15,15,15,0.6);
 	font-family: "Maven Pro", serif;
 	margin-bottom: 0.2em;
 }
 .contact .gauche
-{
+{	border-right: 2px solid #C0C0C0;
 	border-right: 2px solid rgba(0,0,0,0.2);
 	padding-right:  2em;
 }
@@ -219,6 +257,7 @@ fieldset
 
 #hcard-Martin-Paulus a
 {
+	color:#665454;
 	color: rgba(5,0,0,0.75);
 }
 
@@ -248,6 +287,7 @@ fieldset
 	padding-bottom:0;
 	clear:both;
 	float:left;
+	border-right:#C0C0C0 2px solid;
 	border-right: 2px solid rgba(0,0,0,0.2);
 	text-align: center;
 
@@ -275,12 +315,14 @@ form
 input
 {
 	font-family: Georgia, sans-serif;
+		color:#665454;
 	color: rgba(5, 0, 0, 0.75);
 }
 textarea
 {
 	margin-top: 0.75em;
 		font-family: Georgia, sans-serif;
+		color:#665454;
 		color: rgba(5, 0, 0, 0.75);
 		font-size: 1em;
 		width: 75%;
@@ -306,6 +348,7 @@ textarea
 .gauche>section
 {
 	margin-bottom: 3em;
+	border-right: 2px solid #C0C0C0;
 	border-right: 2px solid rgba(0,0,0,0.2);
 	padding-right: 2em;
 	width:100%;
@@ -314,6 +357,7 @@ textarea
 {	
 	float:left;
 	margin-bottom: 3em;
+	border-right: #C0C0C0 2px solid;
 	border-right: 2px solid rgba(0,0,0,0.2);
 	padding-right: 2em;
 	width:40%;
@@ -344,12 +388,14 @@ section footer p
 {
 	font-style: italic;
 	font-size: 0.8em;
+	color:#665454;
 	color: rgba(0,0,0,0.6);
 }
 .date
 {
 	font-style: italic;
 	font-size: 0.8em;
+	color:#665454;
 	color: rgba(0,0,0,0.4);
 
 }
@@ -360,6 +406,7 @@ section footer p
 }
 #menu-header-menu
 {
+	border-bottom: #C0C0C0 3px solid;
 	border-bottom: 3px solid rgba(0,0,0,0.2);
 	height: 4em;
 	font-family: "Maven Pro", serif;
@@ -400,7 +447,7 @@ section footer p
 } 
 #vcard a
 {
-	
+	color:#665454;
 	color: rgba(5,0,0,0.75);
 }
 #coord
@@ -421,6 +468,7 @@ section footer p
 .email
 {
 	font-family: Georgia, sans-serif;
+	color:665454;
 	color: rgba(5, 0, 0, 0.75);
 	font-size: 1em;
 	float:left;
@@ -439,6 +487,7 @@ float: left;
 }
 #ressoc
 {
+	color:#BFBFBF;
 	color: rgba(255,255,255,0.8);
 	float: left;
 	padding-right: 5%;
@@ -446,6 +495,7 @@ float: left;
 }
 #ressoc a
 {
+	color:#BFBFBF;
 	color:rgba(255, 255, 255, 0.6);
 	float:left;
 	line-height: 1.5em;
@@ -457,6 +507,7 @@ float: left;
 {
 padding-top: 1.5em;
 padding-bottom: 1em;
+color:#BFBFBF;
 color: rgba(255,255,255,0.8);
 
 }
@@ -468,6 +519,7 @@ color: rgba(255,255,255,0.8);
 #copyright
 {
 	clear: both;
+	color:#BFBFBF;
 	color: rgba(255,255,255,0.8);
 	padding-top: 3em;
 	margin-bottom: 1em;
@@ -496,6 +548,7 @@ color: rgba(255,255,255,0.8);
 	min-height:25em;
 	background: url("image/retina_wood.png") top left repeat;
 	margin-bottom:3em;
+	border-bottom: #C0C0C0 3px solid;
 	border-bottom: 3px solid rgba(0,0,0,0.1);
 
 }
@@ -606,12 +659,12 @@ color: rgba(255,255,255,0.8);
 {
 	height:0;
 }
+#slideUp
+{
+	min-width: 40px;
+}
 @media only screen and (min-width: 960px) and (max-width: 1279px) {
  
-  #ressoc a
-{
-	color:rgba(255, 0, 0, 0.6);
-}
 #agenda
 {
 	width:100px;
@@ -700,6 +753,10 @@ color: rgba(255,255,255,0.8);
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) 
 {
+#imgNav
+{
+	min-height: 18em;
+}
 	#menu-header-menu  a
 {
 	font-size: 1.3em;
@@ -719,12 +776,182 @@ color: rgba(255,255,255,0.8);
 	margin-right:5%;
 	margin-left: 5%;
 }
+#agenda
+{
+	width:100px;
+	height: 104px;
+	background: url('image/imgNav/1280/agenda.png');
+	top:15.8em;
+	left:30%;
 }
+#folders
+{
+	width:150px;
+	height: 195px;
+	background: url('image/imgNav/1280/2d.png');
+	top:6em;
+	left:7%;
+}
+#phone
+{
+	width:90px;
+	height: 108px;
+	background: url('image/imgNav/1280/phone.png');
+	top:14em;
+	left:45%;	
+}
+#drawing
+{
+	width:150px;
+	height: 130px;
+	background: url('image/imgNav/1280/draw.png');
+	top:4.5em;
+	left:27%;	
+}
+#laptop
+{
+	width:250px;
+	height: 215px;
+	background: url('image/imgNav/1280/laptop.png') no-repeat;
+	top:6em;
+	left:60%;	
+}
+#cap
+{
+
+	width:115px;
+	height: 80px;
+	background: url('image/imgNav/1280/cap.png') no-repeat;
+	top:4em;
+	left:47%;
+}
+#pen
+{
+	width:25px;
+	height: 90px;
+	background: url('image/imgNav/1280/pen.png') no-repeat;
+	top:14em;
+	left:40%;
+	-moz-transform:rotate(-45deg); //firefox
+    -webkit-transform:rotate(-45deg); //Chrome, Safari
+    -o-transform:rotate(-45deg); //Opera
+	
+}
+
+}
+@media only screen and (max-width: 680px)
+{
+	#imgNav
+	{
+		display:none;
+	}
+	nav
+	{
+		margin-bottom: 30px;
+	}
+	
+}
+
 @media only screen and (min-width: 480px) and (max-width: 767px)
 {
+#read li 
+{
+	float:left;
+}
+#footer-art
+{
+	width:95%;
+	margin-left:2.5%;
+	margin-right: 2.5%;
+}
+#footer-art article+article
+{
+	float:right;
+	padding-right: 0;
+}
+#ressoc
+{
+	position:absolute;
+	bottom:2.5%;
+	left: 10%;
+}
+#copyright
+{
+	position:absolute;
+	bottom:-30px;
+}
+footer
+{
+	height:500px;
+}
+#imgNav
+{
+	min-height: 18em;
+}	
 #maintitle
 {
 	font-size: 1.8em;
+}
+#agenda
+{
+	width:100px;
+	height: 104px;
+	background: url('image/imgNav/1280/agenda.png');
+	top:15.8em;
+	left:30%;
+}
+#folders
+{
+	width:150px;
+	height: 195px;
+	background: url('image/imgNav/1280/2d.png');
+	top:6em;
+	left:7%;
+}
+#phone
+{
+	width:90px;
+	height: 108px;
+	background: url('image/imgNav/1280/phone.png');
+	top:14em;
+	left:45%;	
+}
+#drawing
+{
+	width:150px;
+	height: 130px;
+	background: url('image/imgNav/1280/draw.png');
+	top:4.5em;
+	left:27%;	
+}
+#laptop
+{
+	width:250px;
+	height: 215px;
+	background: url('image/imgNav/1280/laptop.png') no-repeat;
+	top:6em;
+	left:60%;	
+}
+#cap
+{
+
+	width:115px;
+	height: 80px;
+	background: url('image/imgNav/1280/cap.png') no-repeat;
+	top:4em;
+	left:47%;
+}
+#pen
+{
+	width:25px;
+	height: 90px;
+	background: url('image/imgNav/1280/pen.png') no-repeat;
+	top:14em;
+	left:40%;
+	-moz-transform:rotate(-45deg); //firefox
+    -webkit-transform:rotate(-45deg); //Chrome, Safari
+    -o-transform:rotate(-45deg); //Opera
+	
 }
 	#menu-header-menu a
 {
@@ -790,10 +1017,24 @@ color: rgba(255,255,255,0.8);
 	float: none;
 
 }
-
-
+}
 @media only screen and (max-width: 479px)
 {
+	#maintitle
+	{
+		padding-bottom: 0.4em;
+		padding-top: 0.7em;
+	}
+
+	#main
+	{	
+	margin-right: 2%;
+	margin-left: 2%;
+	}
+	#imgNav
+	{
+		display:none;
+	}
 	#main
 	{
 	margin-right:1%;
@@ -832,22 +1073,42 @@ color: rgba(255,255,255,0.8);
 	float: left;
 	padding-right:5%;
 	min-width: 7em;
+	width:95%;
 }
 #footer-art article
 {
 	padding-top: 1em;
 	float: left;
 	padding-right:5%;
-	width:45%;
+	width:95%;
 	min-width: 7em;
-
+	clear:left;
 }
 .contact .gauche
 {
 	width:90%;
 	padding-right: 2em;
 	border:none;
-		
+}
+#hcard-Martin-Paulus
+{
+	float:left;
+}
+nav
+{
+	font-size: 0.9em;
+}
+.news
+{
+	width:100%;
+	border-right:0;
+	float:left;
+	padding-left:5%;
+}
+#read li
+{
+	float:left;
+	width:50%;
 }
 .droite
 {
@@ -878,5 +1139,4 @@ display: none;
 display: none;
 }
 
-}
 }

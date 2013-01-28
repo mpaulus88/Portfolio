@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="<?php bloginfo('language');?>">
 <head>
-	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><script src="http://martinpaulus.be/wp-content/themes/nouveauTheme/script/css3-mediaqueries.js"></script><![endif]-->
 	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="description" content="<?php bloginfo('description');?>"/>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>"/>
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700' rel='stylesheet' type='text/css'>
+	<link href="<?php bloginfo('stylesheet_directory');?>/image/logofav.ico" rel="icon">
 	<title><?php bloginfo('name');?></title>
 
 </head>
