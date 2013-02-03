@@ -10,6 +10,4 @@
 		</div>
 	</div>
 	</body>
-		<script src="<?php bloginfo('wpurl'); ?>/script/jquery.js"></script>
-		<script src="<?php bloginfo('wpurl'); ?>/script/slide.js"></script>
 </html>

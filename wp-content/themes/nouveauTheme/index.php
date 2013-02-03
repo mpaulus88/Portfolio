@@ -3,15 +3,13 @@
 <div id="corpsBody">
 <section id="imgNav">
 	<h1 class="hidden">Illustration</h1>
-	<div class="gradient"></div>
 	<div id="cap" class="imgElement"></div>
 	<div id="pen" class="imgElement"></div>
-	<a id="laptop" class="imgElement" href="<?php bloginfo('wpurl'); ?>/portfolio/#web"></a>
-	<a id="agenda" class="imgElement" href="<?php bloginfo('wpurl'); ?>/news"></a>
-	<a id="folders" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=49/#2d"></a>
-	<a id="phone" class="imgElement" href="<?php bloginfo('wpurl'); ?>/contact-2"></a>
-	<a id="drawing" class="imgElement" href="<?php bloginfo('wpurl'); ?>/portfolio/#dessins"></a>
-	<div class="gradient"></div>
+	<a title="Web" id="laptop" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=49/#Web"></a>
+	<a title="News" id="agenda" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=51"></a>
+	<a title="Print" id="folders" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=49/#Print"></a>
+	<a title="Contact" id="phone" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=79"></a>
+	<a title="Print" id="drawing" class="imgElement" href="<?php bloginfo('wpurl'); ?>/?page_id=49#Print"></a>
 </section>
 <?php if(have_posts()): ?>
 <?php while(have_posts()): the_post(); ?>

@@ -1,6 +1,6 @@
 		<footer id="main-footer">
 				<section id="footer-art">
-					<h1 class="hidden">Bas de page</h1>
+					<h1 class="hidden">footer</h1>
 					<?php
 					$args = array( 'post_type' => 'foot', 'order'=>'ASC');
 						$loop = new WP_Query( $args );
@@ -12,7 +12,7 @@
 			<?php endwhile; ?>
 				</section> 
 				<section id="ressoc">
-					<h4>Rejoignez moi sur</h4>
+					<h4>REJOIGNEZ MOI SUR</h4>
 					<?php
 						$args = array( 'post_type' => 'ressoc', 'order'=>'ASC'); ?>
 						<ul>
@@ -21,8 +21,8 @@
 							while ( $loop->have_posts() ) : $loop->the_post(); ?>
 							<?php $url=get_post_custom_values('url');?>
 					<li>
-						<?php the_post_thumbnail('post-thumbnail',array('class'=>'ressoc')); ?>
 						<a href="<?php echo $url[0];?>"><?php the_title(); ?></a>
+						<?php the_post_thumbnail('post-thumbnail',array('class'=>'ressoc')); ?>
 					</li>
 				<?php endwhile; ?>
 				</ul>

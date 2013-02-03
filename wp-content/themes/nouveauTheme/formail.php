@@ -10,7 +10,7 @@
  $sended = mail($to, $subject, $message, $headers);
  if($sended)
  {
-$url= $_POST['url'].'?sended=true';
+$url= $_POST['url'].'&sended=true';
 var_dump($url);
 header('Location: '.$url);
 
@@ -18,7 +18,7 @@ header('Location: '.$url);
  else
  {
  
- $url= $_POST['url'].'?sended=false';
+ $url= $_POST['url'].'&sended=false';
 header('Location: '.$url);
 var_dump($url);
 }
